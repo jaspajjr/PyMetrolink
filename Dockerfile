@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.7
 
 COPY container-entrypoint.sh /entry
 RUN chmod 0755 /entry

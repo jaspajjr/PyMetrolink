@@ -9,4 +9,4 @@ RUN pip install -r /data/requirements.txt
 CMD ["start"]
 ENTRYPOINT ["/entry"]
 
-COPY serving /data
+COPY metrolink /data
